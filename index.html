@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Politique de confidentialité — MasterGame</title>
+<title>MasterGame : Code Breaker Puzzle</title>
+<link rel="icon" type="image/png" href="logo.png" />
 <style>
   :root { color-scheme: light dark; }
   body {
@@ -19,6 +20,11 @@
     body { color: #F3F1F8; background: #1B1826; }
     a { color: #C3B8F0; }
   }
+  .brand { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
+  .brand-logo { width: 56px; height: 56px; border-radius: 14px; flex-shrink: 0; }
+  .brand-name { font-size: 1.3rem; font-weight: 700; line-height: 1.25; }
+  .brand-tagline { font-size: 0.9rem; color: #6B6480; }
+  @media (prefers-color-scheme: dark) { .brand-tagline { color: #A79FC2; } }
   h1 { font-size: 1.7rem; margin-bottom: 4px; }
   .updated { color: #6B6480; font-size: 0.9rem; margin-bottom: 32px; }
   h2 { font-size: 1.2rem; margin-top: 36px; }
@@ -28,6 +34,14 @@
 </style>
 </head>
 <body>
+
+<div class="brand">
+  <img src="logo.png" alt="Logo MasterGame" class="brand-logo" />
+  <div>
+    <div class="brand-name">MasterGame : Code Breaker Puzzle</div>
+    <div class="brand-tagline">Jeu de réflexion inspiré du Mastermind</div>
+  </div>
+</div>
 
 <h1>Politique de confidentialité — MasterGame</h1>
 <p class="updated">Dernière mise à jour : 7 octobre 2026</p>
